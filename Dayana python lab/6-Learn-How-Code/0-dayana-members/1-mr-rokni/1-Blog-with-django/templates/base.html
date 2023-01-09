@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<!-- Set (includes of other htmls) & block -->
+<head>
+{% include 'includes/header_refrences.html' %}
+</head>
+
+<body>
+
+<!-- ***** Preloader Start ***** -->
+<div id="preloader">
+    <div class="jumper">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!-- ***** Preloader End ***** -->
+
+<!-- Header -->
+{% include 'includes/header.html' %}
+
+{% block contant %}
+
+
+
+{% endblock %}
+
+
+{% include 'includes/footer.html' %}
+
+{% include 'includes/footer_refrences.html' %}
+
+</body>
+</html>
